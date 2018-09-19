@@ -5,8 +5,9 @@ function takeANumber(line, name) {
   return welcome
 }
 
+var position = 1;
+
 function takeANumberAlternate(line) {
-  position = 1;
   line.push(position);
   var welcome = `You are number ${position}.`;
   position++;
