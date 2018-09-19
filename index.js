@@ -5,7 +5,9 @@ function takeANumber(line, name) {
   return welcome
 }
 
-function 
+function takeANumberAlternate(line) {
+  
+}
 
 
 function nowServing(line) {
