@@ -10,6 +10,7 @@ function takeANumberAlternate(line) {
   line.push(position);
   var welcome = `You are number ${position}.`;
   position++;
+  return welcome
 }
 
 
